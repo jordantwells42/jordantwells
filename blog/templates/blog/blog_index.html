@@ -1,0 +1,22 @@
+{% extends "base.html"%}
+{% block content %}
+{% for post in posts %}
+<div class = "container my-5">
+	
+	<div class = "card row">
+		<div class = "col-md-8">
+			<a class = "" href = "{% url 'blog:post_detail' post.pk  %}">
+				<h2 class = "blog-title title mt-3"> 
+				{{post.title}}
+				</h2>
+			</a>
+			<p class = "post-about">by Jordan Wells
+			| posted on {{post.created_on|date:"F d, Y"}} </p>
+			<p class = "blog-desc"> {{ post.description}}</p>
+		</div>
+	
+	</div>
+	
+</div>
+{% endfor %}
+{% endblock content %}
