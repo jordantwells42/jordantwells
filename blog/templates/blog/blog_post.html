@@ -9,9 +9,31 @@
 			<p class = "post-about">by Jordan Wells
 			| posted on {{post.created_on|date:"F d, Y"}} </p>
 			<hr>  </hr>
-			<div class = "col-md-10">
+			<div class = "col-md-10 mb-5">
 				<p class = "post-body"> {{post.body | safe }}</p>
 			</div>
+
+			<div>
+				{% for comment in comments %}
+				<p>"{{comment.author}}" said:</p>
+				<p>{{comment.body}}</p>
+				{% endfor %}
+			</div>
+
+			<div class = "comment-field">
+				<form action="" method="post">
+			    {% csrf_token %}
+			    <div class = "col-sm-6">
+			    {{form.as_table}}
+        			<!---<p id="body" class="body">{{ form.body }}</p>
+			    	<p id="author" class="author">{{ form.author }}</p>-->
+			    <input class = "col-sm-6"
+			   	type="submit" value="Submit">
+			    </div>
+			    </form>
+
+			</div>
+
 		</div>
 	</div>
 	

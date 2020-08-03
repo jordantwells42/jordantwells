@@ -23,6 +23,15 @@ def post_detail(request, pk):
                 post=post
             )
             comment.save()
+            comments = Comment.objects.filter(post=post)
+            form = CommentForm()
+            context = {
+                    "post": post,
+                    "comments": comments,
+                    "form": form,
+                }
+            return render(request, "blog/blog_post.html", context)
+
 
     comments = Comment.objects.filter(post=post)
     context = {
