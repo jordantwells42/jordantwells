@@ -1,3 +1,7 @@
 from django.contrib import admin
+from webapps.models import WebApp
 
-# Register your models here.
+class WebAppAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(WebApp, WebAppAdmin)

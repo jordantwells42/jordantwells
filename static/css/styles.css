@@ -7,7 +7,6 @@ body {
     
 }
 
-
 a:hover {
 	text-decoration: none !important;
 }
@@ -25,23 +24,22 @@ a:hover {
 .nav-item, .scroll-link, .navbar-collapse{
 	font-family:  'Kalam', Impact;
 	color: snow;
-	font-size: 18px;
+	font-size: 1.2rem;
 	font-weight: bold;
 }
 
 .title {
 	font-family:  'Kalam', Impact;
-	font-size: 60px;
+	font-size: 3rem;
 	font-weight: bold;
 	color: #f8b188;
-	text-align: center;
 }
 
 
 .description {
 	font-family: "Roboto", Courier, monospace;
-	font-size: 30px;
-	line-height: 28px;
+	font-size: 1.5rem;
+	line-height: 1.4rem;
 	color: #312F2F;
 	text-align: center;
 }
@@ -50,24 +48,24 @@ a:hover {
 	padding: 2%;
 }
 .top-row{
-  	padding-top: 30px;
+  	padding-top: 1.5rem;
   	height: 100%;
 }
 .top-title {
 	font-family: 'Kalam', Impact;
-	font-size: 80px;
+	font-size: 4rem;
 	font-weight: bold;
 	color: snow;
 }
 .top-subtitle {
-	font-size: 35px;
+	font-size: 1.8rem;
 	font-weight: bold;
 	color: snow;
 	text-align: left;
 }
 .top-body{
 	color: snow; 
-	font-size: 16px;
+	font-size: 0.8rem;
 }
 
 .top-img {
@@ -78,16 +76,16 @@ a:hover {
 
 
 .about-content {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .what-content {
-	padding-bottom: 40px;
+	padding-bottom: 2rem;
 }
 .what-subtitle {
 	font-family:  'Kalam', Impact;
-	font-size: 35px;
+	font-size: 1.8rem;
 	font-weight: bold;
 	text-align: left;
 }
@@ -95,7 +93,7 @@ a:hover {
 	text-align: left;
 }
 .what-img {
-	padding-top: 30px;
+	padding-top: 1.5rem;
 	width: 100%;
 	height:auto ;
 }
@@ -137,7 +135,7 @@ a:hover {
 }
 
 .project-card-title {
-	font-size:40px;
+	font-size: 2rem;
 	color: snow;
 	font-weight: bold;
 	
@@ -155,32 +153,43 @@ a:hover {
 
 .blog-title { 
 	text-align: left; 
-	font-size: 30px;
+	font-size: 1.5rem;
 	transition: 0.5s;
 }
 .blog-title:hover { 
 	text-align: left; 
-	font-size: 32px;
+	font-size: 1.6rem;
 	transition: 0.25s;
 }
 
 .blog-desc {
 	text-align: left;
-	font-size: 17px;
+	font-size: 0.9rem;
 }
 .post-title {
 	text-align: left; 
-	font-size: 50px
+	font-size: 2.5rem;
 }
 
 .post-about {
-	font-size: 18px;
+	font-size: 0.9rem;
 	color: gray;
 }
 
 .post-body {
 	font-family: "Roboto", Courier, monospace;
-	font-size: 24px;
-	line-height: 24px;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
 	text-align: left;
+}
+
+.webapp-title {
+	font-family: "Roboto", Courier, monospace;
+	font-size: 2rem;
+	line-height: 1.2rem;
+	text-align: left;
+}
+
+.webapp-card {
+	padding: 5%;
 }
