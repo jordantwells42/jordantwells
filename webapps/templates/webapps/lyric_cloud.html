@@ -1,0 +1,13 @@
+{% extends "base.html"%}
+{% block content %}
+{% if not has_auth %}
+<form action='' method='Post'>
+	 {% csrf_token %}
+	<button type='submit'> Spoop</button>
+</form>
+{% endif %}
+{% if cloud %}
+{{cloud}}
+{% endif %}
+<h1>{{spotify}}</h1>
+{% endblock content %}

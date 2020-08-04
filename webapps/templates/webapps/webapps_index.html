@@ -9,11 +9,16 @@
 </div>
 	<div class = "container my-4">
 		{% for WebApp in WebApps %}
-		<div class = "webapp-card card mb-3">
-			<h1 class = "webapp-title mb-3">{{WebApp.title}}</h1>
-			<p>{{WebApp.description}}</p>
-			<a href = "{{WebApp.github}}">GitHub Link</a>
-		</div>
+		
+			<div class = "webapp-card card mb-3">
+				<a href = "{{WebApp.ref}}">
+				<h1 class = "webapp-title title mb-3">{{WebApp.title}}</h1>
+				</a>
+				<p class = "description" style = "text-align: left">{{WebApp.description}}</p>
+				<a href = "{{WebApp.github}}">GitHub Link</a>
+			</div>
+
+		
 		{% endfor %}
 	</div>
 {% endblock content %}
