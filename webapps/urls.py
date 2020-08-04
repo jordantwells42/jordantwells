@@ -4,8 +4,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from . import views
 
 urlpatterns = [
-    path("", views.webapps, name = 'webapps-index'),
-    path("webapp/<int:pk>/", views.webapp_detail, name = 'webapp-detail')
+    path("", views.webapps, name = 'webapps-index')
 ] 
 urlpatterns += staticfiles_urlpatterns()
 app_name = "webapps"
