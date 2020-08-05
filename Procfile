@@ -1,0 +1,1 @@
+web: gunicorn jordantwells.wsgi
