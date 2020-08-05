@@ -38,8 +38,8 @@ a:hover {
 
 .description {
 	font-family: "Roboto", Courier, monospace;
-	font-size: 1.5rem;
-	line-height: 1.4rem;
+	font-size: 1.8rem;
+	line-height: 1.9rem;
 	color: #312F2F;
 	text-align: center;
 }
@@ -85,7 +85,7 @@ a:hover {
 }
 .what-subtitle {
 	font-family:  'Kalam', Impact;
-	font-size: 1.8rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 	text-align: left;
 }
