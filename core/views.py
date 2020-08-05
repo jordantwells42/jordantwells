@@ -5,3 +5,6 @@ from django.http import HttpResponse
 def index(request):
 	return render(request, 'core/index.html')
 
+def resume(request):
+	return render(request, 'core/resume.html')
+

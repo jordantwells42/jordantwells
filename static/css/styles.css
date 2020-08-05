@@ -153,13 +153,15 @@ a:hover {
 
 .blog-title { 
 	text-align: left; 
-	font-size: 1.5rem;
-	transition: 0.5s;
+	font-size: 1.8rem;
+	transition: 0.25s;
+
 }
 .blog-title:hover { 
 	text-align: left; 
-	font-size: 1.6rem;
-	transition: 0.5s;
+	font-size: 1.8rem;
+	filter: saturate(50%);
+	transition: 0.05s;
 }
 
 .blog-desc {
@@ -192,4 +194,12 @@ a:hover {
 
 .webapp-card {
 	padding: 5%;
+}
+
+.resume {
+	display: block;
+	height: 80rem;
+	width: 60rem;
+	padding: 5%;
+	justify-content: center;
 }
