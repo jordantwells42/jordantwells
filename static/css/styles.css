@@ -27,12 +27,17 @@ a:hover {
 	font-size: 1.2rem;
 	font-weight: bold;
 }
+.nav-item:hover, .scroll-link:hover, .navbar-collapse:hover, .navbar-brand:hover {
+	color: #ffd9d9;
+}
+
 
 .title {
 	font-family:  'Kalam', Impact;
 	font-size: 3rem;
 	font-weight: bold;
 	color: #f8b188;
+	text-shadow: 1.5px 1.5px #d97568;
 }
 
 
@@ -42,6 +47,8 @@ a:hover {
 	line-height: 1.9rem;
 	color: #312F2F;
 	text-align: center;
+	font-weight: 600;
+	color: gray;
 }
 .top-picture{
 	height: 42rem;
@@ -88,6 +95,7 @@ a:hover {
 	font-size: 2.2rem;
 	font-weight: bold;
 	text-align: left;
+	text-shadow: 1.5px 1.5px #017d6c;
 }
 .what-description {
 	text-align: left;
@@ -138,6 +146,7 @@ a:hover {
 	font-size: 2rem;
 	color: snow;
 	font-weight: bold;
+	text-shadow: 1.5px 1.5px gray;
 	
 }
 
@@ -158,7 +167,7 @@ a:hover {
 
 }
 .blog-title:hover {  
-	filter: saturate(50%);
+	color: #f89588;
 	transition: 0.05s;
 }
 
