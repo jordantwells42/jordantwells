@@ -43,26 +43,26 @@ a:hover {
 	color: #312F2F;
 	text-align: center;
 }
+.top-picture{
+	height: 42rem;
+	overflow-x: hidden;
+}
 
 .top-text{
 	padding: 2%;
 }
-.top-row{
-  	padding-top: 1.5rem;
-  	height: 100%;
-}
+
 .top-title {
 	font-family: 'Kalam', Impact;
-	font-size: 4rem;
+	font-size: 8rem;
 	font-weight: bold;
 	color: snow;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5rem;
+	text-shadow: 5px 5px lightgray;
 }
-.top-subtitle {
-	font-size: 1.8rem;
-	font-weight: bold;
-	color: snow;
-	text-align: left;
-}
+
 .top-body{
 	color: snow; 
 	font-size: 0.8rem;
