@@ -23,11 +23,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = os.environ.get('SECRET_KEY')
-SECRET_KEY = '&qdyzl9=a8-=p6i)m4yf6c50d324^##asp-s(q00rglo19qkvo'
+SECRET_KEY = os.environ.get('SECRET_KEY')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG_VALUE')
 
 ALLOWED_HOSTS = [
     'jordantwells.herokuapp.com',
@@ -135,7 +135,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
