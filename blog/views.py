@@ -7,6 +7,7 @@ def blog_index(request):
     posts = Post.objects.all().order_by('-created_on')
     context = {
         "posts": posts,
+        "title": "Blog"
     }
     return render(request, "blog/blog_index.html", context)
 
@@ -14,6 +15,8 @@ def post_detail(request, pk):
     post = Post.objects.get(pk = pk)
     
     form = CommentForm()
+    
+    """
     if request.method == 'POST':
         form = CommentForm(request.POST)
         if form.is_valid():
@@ -25,10 +28,12 @@ def post_detail(request, pk):
             comment.save()
 
     comments = Comment.objects.filter(post=post)
+    
+    """
     context = {
         "post": post,
-        "comments": comments,
-        "form": form,
+        "title": "Blog"
     }
+
 
     return render(request, "blog/blog_post.html", context)

@@ -153,28 +153,27 @@ a:hover {
 
 .blog-title { 
 	text-align: left; 
-	font-size: 1.8rem;
+	font-size: 2.2rem;
 	transition: 0.25s;
 
 }
-.blog-title:hover { 
-	text-align: left; 
-	font-size: 1.8rem;
+.blog-title:hover {  
 	filter: saturate(50%);
 	transition: 0.05s;
 }
 
 .blog-desc {
 	text-align: left;
-	font-size: 0.9rem;
+	font-size: 1.2rem;
 }
 .post-title {
 	text-align: left; 
 	font-size: 2.5rem;
+	font-weight: bold;
 }
 
 .post-about {
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	color: gray;
 }
 
