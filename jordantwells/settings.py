@@ -29,7 +29,9 @@ SECRET_KEY = '&qdyzl9=a8-=p6i)m4yf6c50d324^##asp-s(q00rglo19qkvo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'jordantwells.herokuapp.com',
+]
 
 
 # Application definition
