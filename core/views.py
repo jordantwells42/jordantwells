@@ -6,5 +6,8 @@ def index(request):
 	return render(request, 'core/index.html')
 
 def resume(request):
-	return render(request, 'core/resume.html')
+	context = {
+		"title": "Resume"
+	}
+	return render(request, 'core/resume.html', context)
 

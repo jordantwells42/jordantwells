@@ -10,7 +10,7 @@ body {
 a:hover {
 	text-decoration: none !important;
 }
-
+/* Navbar */
 .navbar-brand { 
 	font-family:  'Kalam', Impact;
 	font-weight: bold;
@@ -27,11 +27,12 @@ a:hover {
 	font-size: 1.2rem;
 	font-weight: bold;
 }
+
 .nav-item:hover, .scroll-link:hover, .navbar-collapse:hover, .navbar-brand:hover {
 	color: #ffd9d9;
 }
 
-
+/* Generic */
 .title {
 	font-family:  'Kalam', Impact;
 	font-size: 3rem;
@@ -50,6 +51,8 @@ a:hover {
 	font-weight: 600;
 	color: gray;
 }
+
+/* Top Picture */
 .top-picture{
 	height: 42rem;
 	overflow-x: hidden;
@@ -81,12 +84,13 @@ a:hover {
 	overflow: hidden;
 }
 
-
+/* About me */
 .about-content {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
+/* What do I do */
 .what-content {
 	padding-bottom: 2rem;
 }
@@ -105,7 +109,7 @@ a:hover {
 	width: 100%;
 	height:auto ;
 }
-
+/* Projects */
 .project-col {
 	height: 80%;
 
@@ -160,6 +164,7 @@ a:hover {
 	display: center;
 }
 
+/* Blog-index */
 .blog-title { 
 	text-align: left; 
 	font-size: 2.2rem;
@@ -175,6 +180,8 @@ a:hover {
 	text-align: left;
 	font-size: 1.2rem;
 }
+
+/* Blog post */
 .post-title {
 	text-align: left; 
 	font-size: 2.5rem;
@@ -193,6 +200,8 @@ a:hover {
 	text-align: left;
 }
 
+/* Webapp */
+
 .webapp-title {
 	font-family: "Roboto", Courier, monospace;
 	font-size: 2rem;
@@ -204,6 +213,7 @@ a:hover {
 	padding: 5%;
 }
 
+/* Resume */
 .resume {
 	display: block;
 	height: 80rem;
