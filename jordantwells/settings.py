@@ -30,7 +30,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = (os.environ.get('DEBUG_VALUE') == "True")
 
 ALLOWED_HOSTS = [
+    "*",
     'jordantwells.herokuapp.com',
+    "jordantwells.com"
 ]
 
 
@@ -215,7 +217,8 @@ CKEDITOR_CONFIGS = {
 
 django_heroku.settings(locals())
 
-SECURE_SSL_REDIRECT = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+
+SECURE_SSL_REDIRECT = (os.environ.get("SSL_VALUE") == "True")
+SESSION_COOKIE_SECURE = (os.environ.get("COOKIE_VALUE") == "True")
+CSRF_COOKIE_SECURE = (os.environ.get("CSRF_VALUE") == "True")
 SECURE_REFERRER_POLICY = "same-origin"
