@@ -200,6 +200,15 @@ a:hover {
 	text-align: left;
 }
 
+.blog-back {
+	color: lightgray;
+	text-shadow: 1.2px 1.2px gray
+}
+
+.blog-back:hover {
+	color: gray;
+	text-decoration: none;
+}
 /* Webapp */
 
 .webapp-title {

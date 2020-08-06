@@ -2,8 +2,9 @@
 {% block content %}
 
 <div class = "container my-5">
-	<a  class = "title blog-title" href = "{% url 'blog:blog_index' %}"> <h2>back to posts</h2> </a>
-
+	<div class = "row my-3">
+		<a  class = "title blog-back" href = "{% url 'blog:blog_index' %}"> <h2>back to posts</h2> </a>
+	</div>
 	<div class = "row my-3">
 			<h2 class = "post-title title"> {{post.title}}</h1>
 			<p class = "post-about">
