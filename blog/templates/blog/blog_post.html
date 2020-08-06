@@ -6,11 +6,12 @@
 	<div class = "row my-3">
 		<div class = "col 6">
 			<h2 class = "post-title title"> {{post.title}}</h1>
-			<p class = "post-about">by Jordan Wells
-			| posted on {{post.created_on|date:"F d, Y"}} </p>
+			<p class = "post-about">
+				by Jordan Wells | Posted on {{post.created_on|date:"F d, Y"}} 
+			</p>
 			<hr>  </hr>
 			<div class = "col-md-10">
-				<p class = "post-body"> {{post.body | safe }}</p>
+				<p class = "post-body"> {{post.body | safe }} </p>
 			</div>
 		</div>
 	</div>
