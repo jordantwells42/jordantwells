@@ -3,14 +3,11 @@ Django==3.0.8
 django-ckeditor==5.9.0
 django-disqus==0.5
 django-js-asset==1.2.2
-django-utils==0.0.2
-django-utils-six==2.0
 gunicorn==20.0.4
 json5==0.9.5
 python-dateutil==2.8.1
 python-dotenv==0.14.0
 urllib3==1.25.9
-widgetsnbextension==3.5.1
 wordcloud==1.7.0
 whitenoise==5.2.0
 django-heroku==0.3.1
