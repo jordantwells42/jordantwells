@@ -215,6 +215,7 @@ CKEDITOR_CONFIGS = {
     }
 }
 
+
 django_heroku.settings(locals())
 
 
