@@ -1,2 +1,2 @@
 # jordantwells
- My Personal Website
+ My Personal Website built with Django
