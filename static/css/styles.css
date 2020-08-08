@@ -17,6 +17,9 @@ a:hover {
 	color: snow;
 }
 
+.nav-img {
+	width: 20%;
+}
 .navbar {
 	background-color: #f8b189;
 }
@@ -24,7 +27,7 @@ a:hover {
 .nav-item, .scroll-link, .navbar-collapse{
 	font-family:  'Kalam', Impact;
 	color: snow;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 }
 

@@ -12,7 +12,8 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam|Roboto">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	
+	<link rel="icon" href="{% static 'favicon.png'%}" type="png" />
+
 	{% if title %}
 		<title> Jordan Wells - {{ title }} </title>
 	{% else %}
@@ -31,7 +32,7 @@
 	height: 100px;
 	width: 100px;
 	fill:#FFFFFF;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
   	transition: 0.005s;
 	}
 	.contact-img:hover {
@@ -44,7 +45,7 @@
 	<!---Navigation Bar--->
 	<nav class="navbar fixed-top navbar-expand-md">
 	    <div class="container">
-	        <a class="navbar-brand" href="{% url 'core:index' %}">Jordan Wells</a>
+	        <a class="navbar-brand" href="{% url 'core:index' %}"><img class = "nav-img" src = "{% static 'favicon.svg'%}" alt = "A computer"></img> </a>
 	         <button class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
@@ -77,13 +78,13 @@
 		<div class="container-fluid" style = "background-color: #403233;">
 			<div class="row ">
 				<div class = "col-12">
-	                <h2 class ="title mt-5 mb-2" id = "contact" style = "text-align: center">Contact</h2>
-	                <h3 class = "mb-1" style = "color: snow; text-align: center"> +1 (281) 608-1825</h3>
+	                <h2 class ="title mt-3 mb-2" id = "contact" style = "text-align: center">Contact</h2>
+	                <h3 class = "" style = "color: snow; text-align: center"> +1 (281) 608-1825</h3>
 	            </div>
 		    </div>
 			<div class = "row justify-content-center">
-				<a href = "mailto:jordantwells@gmail.com" class = "justify-content-center x">
-				<div class = "col-12 contact-img">
+				<a href = "mailto:jordantwells@gmail.com" class = "justify-content-center">
+				<div class = "contact-img">
 				</div>
 				</a>
 			</div>	
@@ -93,7 +94,7 @@
 	<!---Footer Section--->
 	<div class = "footer-content">
 		<div class = "container-fluid" style = "background-color :#F7A474">
-			<div class = "row" style = "height: 125px">
+			<div class = "row" style = "height: 75px">
 			</div>
 		</div>
 	</div>
