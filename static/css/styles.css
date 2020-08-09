@@ -114,15 +114,6 @@ a:hover {
 /* Projects */
 .project-col {
 	height: 80%;
-
-}
-
-.project-col:hover {
-	padding: 10%;
-	color: snow;
-	text-decoration: none;
-	transform: scale(1.05, 1);
-	transition: 1s;
 }
 
 .project-card {
