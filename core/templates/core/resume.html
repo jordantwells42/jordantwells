@@ -1,12 +1,118 @@
-{% extends "base.html"%}
+{% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<div class = "container ">
+<div class = "container my-5">
+		<!-- Name and Contact -->
 
-	<div class='embed-responsive my-5' style='padding:20%; padding-bottom: 80%'>
-	    <embed src = "{% static 'jordanwellsresume.pdf' %}" width='100%' height='100%'></embed>
+		<div class = "row">
+			<div class = "col-sm-8">
+				<h1 class = "resume-name">Jordan Wells</h1>
+				<h2 class = "resume-header"> Chemical Engineer, Data Scientist</h2>
+			</div>
+			<div class = "col-sm-4">
+				<h2 class = "resume-header" style = "padding-top: 1rem;"> Contact: </h2>
+				<p class = "resume-contact">
+					(281) 608-1825 <br>
+					jordantwells@gmail.com <br>
+					jordantwells.com
+				</p>
+			</div>
+		</div>
+		<br>
+
+		<!-- Education -->
+
+		<h2 class = "resume-header">
+			Education <hr>
+		</h2>
+		<ul class = "resume-info">
+			<li>Bachelor of Science in Chemical Engineering, May 2023</li>
+			<li>The University of Texas at Austin</li>
+			<li>Overall GPA: 4.00, Major GPA: 4.00</li>
+		</ul>
+		<br>
+
+		<!-- Experience -->
+
+		<h2 class = "resume-header">
+			Experience <hr>
+		</h2>
+
+		<!-- Position 1 -->
+		<div class = "row justify-content-between">
+			<h3 class = "col-md-9 resume-position">
+				Undergraduate Research Assistant, The University of Texas at Austin
+			</h3>
+			<h3 class = "col-md-3 resume-date">
+				11/2019 – Present
+			</h3>
+		</div>
+			<ul class = "resume-info">
+				<li>
+					Direct the evolution of bacterial cells to produce novel enzyme functionality
+				</li>
+				<li>
+					Assist in the implementation of cellular biosensors to streamline current experimental methodology
+				</li>
+				<li>
+					Utilize computational biology tools to predict and design protein structure
+				</li>
+				<li>
+					Visualize and analyze collected data using Python 
+				</li>
+			</ul>
+		<br>
+
+		<!-- Position 2 -->
+		<div class = "row justify-content-between">
+			<h3 class = "col-md-9 resume-position">
+				Academic Tutor, Austin Learning Center
+			</h3>
+			<h3 class = "col-md-3 resume-date">
+				08/2020 – Present
+			</h3>
+		</div>
+			<ul class = "resume-info">
+				<li>
+					Collaborate with students to get the most out of their STEM education
+				</li>
+				<li>
+					Tailor lesson plans to accommodate student's specific academic strengths and wants
+				</li>
+				<li>
+					Keep records of academic performance to achieve student improvement
+				</li>
+			</ul>
+		<br>
+
+		<!-- Skills -->
+		<h2 class = "resume-header">
+			Skills and Proficiencies <hr>
+		</h2>
+		<ul class = "resume-info">
+			<li>Proficient in Python (Django, Pandas, Matplotlib), HTML, CSS, and Excel</li>
+			<li>Experienced with Java, Blender, AutoCAD, Biotechnology Tools, Photoshop, and Illustrator</li>
+		</ul>
+		<br>
+
+
+		<!-- Accomplishments -->
+		<h2 class = "resume-header">
+			Accomplishments <hr>
+		</h2>
+		<ul class = "resume-info">
+			<li>Freshmen Representative and Service Chair, Texas AIChE</li>
+			<li>University Honors</li>
+			<li>UIL Science 6A Academic State Champion</li>
+			<li>National Merit Finalist and National Hispanic Scholar</li>
+			<li>Atascocita High School Salutatorian</li>
+			<li>American Chemical Society – Greater Houston Section Scholarship Exam winner</li>
+			<li>President, UIL Math and Science League</li>
+		</ul>
+		<br>
 	</div>
 
-</div>
-
+	<a class = "title" href = "{% static 'jordanwellsresume.pdf' %}" download>
+		<p class = "resume-download">Download a PDF here</p>
+	</a>
 {% endblock content %}

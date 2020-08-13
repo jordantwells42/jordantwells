@@ -216,10 +216,52 @@ a:hover {
 }
 
 /* Resume */
-.resume {
-	display: block;
-	height: 80rem;
-	width: 60rem;
-	padding: 5%;
-	justify-content: center;
+
+.resume-name {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.resume-header {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.resume-contact {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	line-height: 1.8rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.resume-info {
+	font-family: Calibri, sans-serif;
+	font-size: 1.5rem;
+}
+
+.resume-position {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+.resume-date {
+	font-family: Calibri, sans-serif;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.resume-download {
+	text-align: center;
+}
+
+.resume-download:hover {
+	text-decoration: none;
+	color: #f8b188;
+
 }
