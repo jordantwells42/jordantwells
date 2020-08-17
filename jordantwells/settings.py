@@ -151,6 +151,7 @@ STATICFILES_DIRS = (
 
 CKEDITOR_CONFIGS = {
     'default': {
+        'allowedContent': True,
         'skin': 'moono',
         # 'skin': 'office2013',
         'toolbar_Basic': [
@@ -201,9 +202,11 @@ CKEDITOR_CONFIGS = {
             'div',
             'autolink',
             'autoembed',
-            'embedsemantic',
+            'embed',
+            #'embedsemantic',
+            'embedbase',
             'autogrow',
-            # 'devtools',
+            'devtools',
             'widget',
             'lineutils',
             'clipboard',
@@ -214,7 +217,6 @@ CKEDITOR_CONFIGS = {
         ]),
     }
 }
-
 
 django_heroku.settings(locals())
 
