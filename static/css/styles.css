@@ -227,9 +227,9 @@ a:hover {
 .resume-header {
 	font-family: Calibri, sans-serif;
 	text-align: left;
-	line-height: 2rem;
 	font-size: 2rem;
-	font-weight: 600;
+	line-height: 1.5rem;
+	font-weight: bold;
 }
 
 .resume-contact {
@@ -251,11 +251,19 @@ a:hover {
 	font-size: 1.6rem;
 	font-weight: bold;
 }
+
+.resume-position-sub {
+	font-family: Calibri, sans-serif;
+	text-align: left;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
 .resume-date {
 	font-family: Calibri, sans-serif;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 }
+
 
 .resume-download {
 	text-align: center;
